@@ -63,3 +63,6 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+# Credential
+socialape-e4d6335490af.json
