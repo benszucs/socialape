@@ -65,4 +65,5 @@ node_modules/
 .env
 
 # Credential
-socialape-e4d6335490af.json
+serviceKey.json
+config.json
