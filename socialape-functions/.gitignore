@@ -65,5 +65,5 @@ node_modules/
 .env
 
 # Credential
-serviceKey.json
-config.json
+serviceKey.js
+config.js
