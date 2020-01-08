@@ -8,8 +8,8 @@ let db = {
 			imageUrl: 'image/asdasdasd/asdasdasd',
 			bio: 'Hello, my name is user, nice to meet you',
 			website: 'https://user.com',
-			location: 'London, UK'
-		}
+			location: 'London, UK',
+		},
 	],
 	screams: [
 		{
@@ -18,6 +18,14 @@ let db = {
 			createdAt: '2020-01-05T17:29:56.573Z',
 			likeCount: 5,
 			commentCount: 2,
+		},
+	],
+	comments: [
+		{
+			userHandle: 'user',
+			screamId: 'gfvhiswhcfiufhsdiufh',
+			body: 'nice one mate!',
+			createdAt: '2020-01-05T17:29:56.573Z',
 		},
 	],
 };
@@ -31,16 +39,16 @@ let userDetails = {
 		imageUrl: 'image/asdasdasd/asdasdasd',
 		bio: 'Hello, my name is user, nice to meet you',
 		website: 'https://user.com',
-		location: 'London, UK'
+		location: 'London, UK',
 	},
 	likes: [
 		{
 			userHandle: 'user',
-			screamId: 'h4h3u45hkj3h345'
+			screamId: 'h4h3u45hkj3h345',
 		},
 		{
 			userHandle: 'user',
-			screamId: '34h234h5g3i4g5u3'
-		}
-	]
-}
+			screamId: '34h234h5g3i4g5u3',
+		},
+	],
+};
