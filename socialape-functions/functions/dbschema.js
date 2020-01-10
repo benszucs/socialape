@@ -28,6 +28,16 @@ let db = {
 			createdAt: '2020-01-05T17:29:56.573Z',
 		},
 	],
+	notification: [
+		{
+			recipient: 'user',
+			sender: 'john',
+			read: 'true | false',
+			screamId: 'sufdhwoiejfoisdjf',
+			type: 'like | comment',
+			createdAt: '2020-01-05T17:29:56.573Z',
+		},
+	],
 };
 let userDetails = {
 	// Redux data
